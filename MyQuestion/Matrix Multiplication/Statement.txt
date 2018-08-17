@@ -1,0 +1,36 @@
+Sandeep is a grade 9 student. He is a bit of lazy student and also he is poor in Mathematics. He has currently read about matrix multiplication in his optional mathematics class. And his teacher has given assignment to complete within some duration but Sandeep being lazy has not done his assignment. Submission date is also near and he has large number of tasks. As Sandeep is poor in mathematics he cannot complete his assignment. Now, he has asked you to help him. You are a brilliant programmer and he wants you to automate his task. So you have to write a program to calculate the multiplication of two matrices.  
+
+Input:
+First line contain two space separated integer i.e. M and N which define the rows and columns of first matrix respectively.
+Second line also contain two space separated integer i.e X and Y which define the rows and columns of second matrix respectively.
+Next M line contains the N space separated integer which is the elements of first matrix in ith row.
+Next X line contains the Y space separated integer which is the elements of second matrix in ith row.
+
+Constraints:
+2<=M,N,X,Y<=50
+value of matrices doesnot exceed 100
+
+Output:
+If two matrix cannot be multiplied then Print -1.
+Else Print multiplication of two matrix. See explanation for format of output.
+
+Explanation:
+2 2
+2 2
+2 4
+8 1
+8 9 
+10 5
+
+Here first matrix is:
+|2 4|
+|8 1|
+And second matrix is:
+|8 9|
+|10 5|
+result is:
+|56 38|
+|74 77|
+You have to print this result matrix in following format:
+56 38
+74 77

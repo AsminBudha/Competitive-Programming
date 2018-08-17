@@ -1,0 +1,34 @@
+Recognition System:
+Recognition system consists of different stages like preprocessing, feature extraction and classification. The block diagram of proposed system is given below:
+
+Preprocessing:
+Preprocessing consists of resizing, noise removal, skew detection/correction and binarization. It is used to remove all unwanted bit patterns which reduce recognition accuracy.
+
+Feature Extraction:
+We have used different feature extraction techniques to recognize Nepali characters like:
+1. Zoning
+2. Horizontal Peak Extent
+
+1. Zoning:
+Zoning is used to extract the feature based on it neighbouring pixels. In zoning, image is divided into NxM zones then sum of black pixel is calculated for each zone which act as a features for next stage. In our case 36x36 image is divided into 6x6 identical zones i.e total of 36 zones. In each zones sum of black pixel is calculated.
+
+2.Horizontal Peak Extent:
+Horizontal Peak Extent is used to extract the features based on pixels residing in same horizontal row by row. In each row, sum of successive foreground pixel is calculated then largest value is swapped with each foreground pixel in that row. This largest value act as a feature. We have used 36x36 image so total of 36 features can be extracted.
+
+Classification:
+This phase is also known as decision making phase. It uses the extracted features of previous phase namely, feature extraction phase. The main aim of this phase is to recognize input data. We have used Artificial Neural Network for classification purpose.
+
+Artificial Neural Network:
+Neural Network is network of neurons. Each neurons has some activation function which calculate some value and passed into next layer of neurons. We have use Neural Network with 3 layers where input layer has 36 neurons, hidden layer has 128 neurons and output layer has 58 neurons. We have used sigmoid function in output layer and relu activation function in other layers. Stochastic gradient descent learning algorithm known as adam is used for training neural network.
+
+Experimental Results:
+The outcome of our proposed system are provided here. The results are based on two feature extraction method i.e zoning and horizontal peak extent. We have used 10 fold cross validation and 200 epochs with batch size of 32 to train our model.
+
+Recognition accuracy of zoning feature extraction technique:
+We have achieved maximum accuracy of 86.42% using zoning feature extraction method. We have used regularization of 0.08.
+
+Recognition accuracy of horizontal peak extent technique:
+After trying out parameter tuning, we are able to get maximum of 83.83% accuracy with reugularization of 0.04 using horizontal peak extent.
+
+Conclusion:
+In this paper, we have proposed a system for an Nepali Handwritten Character Recognition System. We have obtained good results while testing this approach for an total of 58 handwritten Nepali characters i.e 12 vowels, 36 consonant and 10 digits. In future, we shall extend our work to reacognize a character more accurately and also recognize a words.

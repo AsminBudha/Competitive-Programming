@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1511708882 source:/home/asmin/Desktop/ccode/Nep/main.cpp
+	<iostream>
+
+1511709398 source:/home/asmin/Desktop/ccode/Nep/m.cpp
+
+1511711868 source:/home/asmin/Desktop/ccode/Nep/Queue.cpp
+	<iostream>
+	<queue>
+
+1511788907 source:/home/asmin/Desktop/ccode/Nep/Stack.cpp
+	<iostream>
+	<stack>
+
+1511788925 source:/home/asmin/Desktop/ccode/Nep/binary_search.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+
+1511712569 source:/home/asmin/Desktop/ccode/Nep/partial_sort.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+
+1511789508 source:/home/asmin/Desktop/ccode/Nep/UnorderedMap.cpp
+	<iostream>
+	<string>
+	<unordered_map>
+
+1511790352 source:/home/asmin/Desktop/ccode/Nep/Map.cpp
+	<iostream>
+	<map>
+	<iterator>
+
+1511790703 source:/home/asmin/Desktop/ccode/Nep/BubbleSort.cpp
+	<stdio.h>
+	<iostream>
+
+1511793343 source:/home/asmin/Desktop/ccode/Nep/SelectionSort.cpp
+	<stdio.h>
+	<iostream>
+
+1511793893 source:/home/asmin/Desktop/ccode/Nep/InsertionSort.cpp
+	<iostream>
+
+1511797830 source:/home/asmin/Desktop/ccode/Nep/MergeSort.cpp
+	<iostream>
+
+1512140425 source:/home/asmin/Desktop/ccode/Nep/QSort.cpp
+	<bits/stdc++.h>
+
+1512140394 source:/home/asmin/Desktop/ccode/Nep/ShiftandCease.cpp
+	<iostream>
+
+1512183643 source:/home/asmin/Desktop/ccode/Nep/Vector.cpp
+	<iostream>
+	<vector>
+

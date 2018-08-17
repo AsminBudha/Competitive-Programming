@@ -1,0 +1,21 @@
+You are recently teaching computer in Reed Model School. Reed Model School is one of the best school in Kathmandu Valley. And to increase the interaction between parents and teacher and also to know more about their students this school sends every class teacher to their students home for home visit. Since you are class teacher you have to go for home visit.
+Now you want to visit every student's home in cost optimal way. Given the list of students home you have to print the order in which every student's home can be visited in optimal way.
+Students home can be represented in X-axis plane where every given point X is student's home. And your home is in 0 point in X-axis.
+
+Input:
+First Line contains N which is number of students.
+Next Line contains N space separated integers Ai which is position of student's home.
+
+Constraint:
+0<=N,Ai<=10^6
+
+Output:
+Print the order of visit of every student in cost optimal way.
+
+Explanation:
+For input
+5
+8 10 6 8 1
+
+Output is 
+1 6 8 8 10

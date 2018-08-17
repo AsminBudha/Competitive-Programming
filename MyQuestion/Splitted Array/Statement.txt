@@ -1,0 +1,17 @@
+An array is a collection of data having same data types.
+Sorted array means data in a array are sorted in some other either ascending order or descending order.
+But, in our case we get an array of data where sorted array is splitted from some point and first part of splitted array is in last and last part is in front part.
+Given this type of array we have to find position of peak element. Suppose in the following array:
+{5,10,1,3} peak element is 10 and its position is 1 is 0th index element.
+
+Input:
+First line contain an integer N where N is number of elements in array.
+Next line contain space separated N integers Ai.
+
+Constraint:
+2<=N<=10^6
+Ai<=10^8
+
+Output:
+Index of a peak element in Oth based indexing.
+
