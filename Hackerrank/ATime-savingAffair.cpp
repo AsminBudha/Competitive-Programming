@@ -34,19 +34,20 @@ int main()
 	{
 		int x,y,z;
 		cin>>x>>y>>z;
+		
 		v[x].push_back(make_pair(y,z));
 		v[y].push_back(make_pair(x,z));
 	}
 	
-	int dist[n+1];
-	fill(dist,dist+n+1,MAX);
+	ll dist[n+1];
+	fill(dist,dist+n+1,MOD);
 	dist[1]=0;
-	priority_queue< pii, vector <pii> , greater<pii> > pq;
+	priority_queue< pair<ll,int>, vector < pair<ll,int> > , greater< pair<ll,int>> > pq;
 	pq.push(make_pair(0,1));
 	while(!pq.empty()){
 		int u=pq.top().second;
 		pq.pop();
-		// cout<<u<<" "<<dist[u]<<endl;
+		cout<<u<<" "<<dist[u]<<endl;
 		for (auto it:v[u])
 		{
 			
